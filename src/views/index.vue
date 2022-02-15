@@ -1,11 +1,11 @@
 <template>
   <div class="index">
     <div class="w-500px m-auto mt-24px">
-      <m-input v-model="px" placeholder="Width">
+      <m-input v-model="width" placeholder="Width">
         <template #append> px </template>
       </m-input>
 
-      <m-input v-model="px" class="mt-12px" placeholder="Height">
+      <m-input v-model="height" class="mt-12px" placeholder="Height">
         <template #append> px </template>
       </m-input>
 
@@ -27,10 +27,10 @@ export default defineComponent({
     MInput
   },
   setup() {
-    const px = ref('');
-    const date = ref('');
+    const width = ref('');
+    const height = ref('');
 
-    return { px, date };
+    return { width, height };
   }
 });
 </script>
