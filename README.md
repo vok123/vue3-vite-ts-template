@@ -19,19 +19,19 @@
 
 - dev
 ```bash 
-npm i
+pnpm i
 npm run dev
 ```
 
 - test
 ```bash 
-npm i
+pnpm i
 npm run test
 ```
 
 
 - build
 ```bash 
-npm i
+pnpm i
 npm run build
 ```
